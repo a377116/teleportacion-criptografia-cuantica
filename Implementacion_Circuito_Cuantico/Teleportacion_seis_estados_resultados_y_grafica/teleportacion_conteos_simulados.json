@@ -1,0 +1,80 @@
+{
+    "tipo": "simulacion_ideal_sin_ruido",
+    "orden_bits": "c2 c1 c0",
+    "verificacion": "c2 = 0 despues de aplicar la inversa de la preparacion al qubit de Bob",
+    "resultados": [
+        {
+            "estado": "0",
+            "shots": 1024,
+            "exitos": 1024,
+            "fidelidad": 1.0,
+            "conteos": {
+                "011": 261,
+                "001": 246,
+                "000": 272,
+                "010": 245
+            }
+        },
+        {
+            "estado": "1",
+            "shots": 1024,
+            "exitos": 1024,
+            "fidelidad": 1.0,
+            "conteos": {
+                "010": 245,
+                "000": 272,
+                "011": 261,
+                "001": 246
+            }
+        },
+        {
+            "estado": "+",
+            "shots": 1024,
+            "exitos": 1024,
+            "fidelidad": 1.0,
+            "conteos": {
+                "010": 246,
+                "000": 272,
+                "011": 261,
+                "001": 245
+            }
+        },
+        {
+            "estado": "-",
+            "shots": 1024,
+            "exitos": 1024,
+            "fidelidad": 1.0,
+            "conteos": {
+                "001": 244,
+                "010": 246,
+                "000": 272,
+                "011": 262
+            }
+        },
+        {
+            "estado": "+i",
+            "shots": 1024,
+            "exitos": 1024,
+            "fidelidad": 1.0,
+            "conteos": {
+                "011": 261,
+                "001": 244,
+                "010": 247,
+                "000": 272
+            }
+        },
+        {
+            "estado": "-i",
+            "shots": 1024,
+            "exitos": 1024,
+            "fidelidad": 1.0,
+            "conteos": {
+                "011": 261,
+                "010": 247,
+                "000": 272,
+                "001": 244
+            }
+        }
+    ],
+    "fidelidad_promedio": 1.0
+}
